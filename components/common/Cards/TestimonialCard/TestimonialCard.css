@@ -1,0 +1,10 @@
+.relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+  }
+  .text-orange-500 {
+    color: #ff6600; /* Replace with your preferred shade of orange */
+  }
+  
