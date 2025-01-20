@@ -12,7 +12,7 @@ const SectionHeading = ({
   className,
 }: SectionHeadingProps) => {
   return (
-    <div className={`max-w-4xl w-full mx-auto space-y-4 ${className}`}>
+    <div className={`max-w-4xl w-full mx-auto space-y-4 pt-5 ${className}`}>
       <h3 className="text-5xl lg:text-[65px] font-semibold leading-[97px]">
         {title}
       </h3>

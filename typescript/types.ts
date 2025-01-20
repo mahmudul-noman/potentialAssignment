@@ -25,3 +25,10 @@ export type ServiceType = {
   name: string;
   description: string;
 };
+
+export type ProjectType = {
+  id: number | string;
+  name: string;
+  image: StaticImageData;
+  tag: string;
+};
