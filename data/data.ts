@@ -1,6 +1,10 @@
-
+import UIUX from "@/public/images/uiux.png";
+import WebDesign from "@/public/images/web-design.png";
+import AppDesign from "@/public/images/app-design.png";
+import GraphicDesign from "@/public/images/graphics-design.png";
 import {
   HeaderLinksType,
+  ServiceType,
   SkillTypes,
   SocialLinkType,
 } from "@/typescript/types";
@@ -85,7 +89,40 @@ export const skills: SkillTypes[] = [
   },
   {
     id: 4,
-    name: "Graphics Design",
+    name: "Graphic Design",
     percentage: 92,
+  },
+];
+
+
+// Sevice Section Data
+export const services: ServiceType[] = [
+  {
+    id: 1,
+    icon: UIUX,
+    name: "UI/UX",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+  },
+  {
+    id: 2,
+    icon: WebDesign,
+    name: "Web Design",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+  },
+  {
+    id: 3,
+    icon: AppDesign,
+    name: "App Design",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+  },
+  {
+    id: 4,
+    icon: GraphicDesign,
+    name: "Graphic Design",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
   },
 ];
