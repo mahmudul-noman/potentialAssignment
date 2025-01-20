@@ -11,3 +11,9 @@ export type SocialLinkType = {
   href: string;
   icon: IconType;
 };
+
+export type SkillTypes = {
+  id: number | string;
+  name: string;
+  percentage: number;
+};

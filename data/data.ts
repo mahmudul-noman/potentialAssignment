@@ -1,10 +1,13 @@
 
 import {
   HeaderLinksType,
+  SkillTypes,
   SocialLinkType,
 } from "@/typescript/types";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
+
+// Header Section Data
 export const headerLinks: HeaderLinksType[] = [
   {
     id: 1,
@@ -38,7 +41,7 @@ export const headerLinks: HeaderLinksType[] = [
   },
 ];
 
-
+// Social Link Data
 export const socialLinks: SocialLinkType[] = [
   {
     id: 1,
@@ -59,5 +62,30 @@ export const socialLinks: SocialLinkType[] = [
     id: 4,
     href: "#",
     icon: FaLinkedin,
+  },
+];
+
+
+// Skills Section Data
+export const skills: SkillTypes[] = [
+  {
+    id: 1,
+    name: "UX",
+    percentage: 90,
+  },
+  {
+    id: 2,
+    name: "Website Design",
+    percentage: 85,
+  },
+  {
+    id: 3,
+    name: "App Design",
+    percentage: 95,
+  },
+  {
+    id: 4,
+    name: "Graphics Design",
+    percentage: 92,
   },
 ];
