@@ -1,4 +1,4 @@
-# Assignment for POTENTIAL
+# ![Assignment Logo](https://i.ibb.co/dtmZRKm/logo.png) Assignment for POTENTIAL
 
 Welcome to **Assignment** – a blend of creativity and functionality! 🌟
 
@@ -7,7 +7,7 @@ Welcome to **Assignment** – a blend of creativity and functionality! 🌟
 ## Demo
 
 Check out the live version of the portfolio here:  
-[**Live Demo**] -
+[**Live Demo**] - [text](https://potential-mahmudul.vercel.app/)
 
 ---
 
@@ -47,4 +47,3 @@ To run the project locally, follow these steps:
     npm install
 
     npm run dev
-
