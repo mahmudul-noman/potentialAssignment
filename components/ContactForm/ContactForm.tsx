@@ -31,7 +31,7 @@ const ContactForm = () => {
         onChange={(e) => handleChange(e)}
       />
       <Button
-        className="btn-primary px-8 font-semibold"
+        className="btn-primary px-8 font-semibold hover:bg-orange-600 duration-300 ease-in-out"
         type="submit"
       >
         Contact Me

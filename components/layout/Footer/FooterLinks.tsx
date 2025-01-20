@@ -11,7 +11,7 @@ const FooterLinks = () => {
           <li key={link.id}>
             <Link
               href={link.path}
-              className="text-lg py-[10px] px-[10px] inline-block xl:text-xl"
+              className="text-lg py-[10px] px-[10px] inline-block xl:text-xl hover:text-orange-600 duration-300 ease-in-out"
             >
               {link.name}
             </Link>

@@ -18,14 +18,16 @@ const HeaderLinks = () => {
           <li key={link.id}>
             <Link
               href={link.path}
-              className="text-base py-[10px] px-[10px] inline-block md:text-lg xl:text-xl"
+              className="text-base py-[10px] px-[10px] inline-block md:text-lg xl:text-xl hover:text-orange-600 duration-300 ease-in-out"
             >
               {link.name}
             </Link>
           </li>
         ))}
         <li>
-          <Button className="btn-primary">Download CV</Button>
+          {/* <Button className="btn-primary">Download CV</Button> */}
+          <Button className="btn-primary hover:bg-orange-600 duration-300 ease-in-out">Download CV</Button>
+
         </li>
       </ul>
       <button

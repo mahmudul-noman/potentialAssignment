@@ -9,7 +9,7 @@ const Logo = () => {
       alt="mumair logo"
       width={500}
       height={250}
-      className="w-[180px] h-[50px] xl:w-[279px] xl:h-[67px]"
+      className="w-[180px] h-[50px] xl:w-[279px] xl:h-[67px] cursor-pointer"
     />
   );
 };

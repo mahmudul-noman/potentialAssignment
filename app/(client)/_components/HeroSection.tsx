@@ -21,7 +21,7 @@ const HeroSection = () => {
             <p className="hero-subtitle">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra
             </p>
-            <Button className="btn-primary w-52">Hire Me</Button>
+            <Button className="btn-primary w-52 hover:bg-orange-600 duration-300 ease-in-out">Hire Me</Button>
           </div>
           <div>
             <Image
