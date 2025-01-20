@@ -32,3 +32,10 @@ export type ProjectType = {
   image: StaticImageData;
   tag: string;
 };
+
+export type TestimonialType = {
+  id: number | string;
+  name: string;
+  description: string;
+  image: string;
+};
