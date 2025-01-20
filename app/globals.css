@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  section {
+    @apply py-8;
+  }
+  footer {
+    @apply bg-gray-50;
+  }
+  .color-primary {
+    @apply text-orange-500;
+  }
+  .btn {
+    @apply text-base py-[10px] px-[14px] xl:text-xl rounded-md;
+  }
+  .btn-primary {
+    @apply bg-orange-500 text-white;
+  }
+  input {
+    @apply p-[22px] border border-gray-300 rounded-2xl w-full text-xl outline-none bg-gray-50;
+  }
+  .copyright {
+    @apply bg-black/70 text-white py-6 text-center;
+  }
+}
+
+.swiper {
+  height: 387px;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.swiper-slide {
+  width: 1087px !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet {
+  width: 57px !important;
+  height: 16px !important;
+  border-radius: 8px !important;
+  background-color: #d9d9d9 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fd6f00 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .swiper {
+    height: 387px;
+  }
+  .swiper-slide {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .swiper {
+    height: 100%;
+  }
+  .swiper-pagination-bullet {
+    width: 37px !important;
+    height: 10px !important;
+    border-radius: 8px !important;
+    background-color: #d9d9d9 !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #fd6f00 !important;
+  }
+}
