@@ -74,7 +74,7 @@ const ProjectSection = () => {
             </Button>
           </div>
           {filteredProject.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-11 mt-12 transition-opacity duration-500 ease-in-out">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-11 mt-12 transition-opacity duration-500 ease-in-out">
               {filteredProject.map((project: ProjectType) => (
                 <ProjectCard
                   key={project.id}

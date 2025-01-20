@@ -24,7 +24,7 @@ const ContactForm = () => {
     >
       <input
         type="text"
-        placeholder="Enter your email"
+        placeholder="Enter Your Email"
         className="flex-1"
         name="email"
         value={data.email}
